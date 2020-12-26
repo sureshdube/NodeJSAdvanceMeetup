@@ -1,0 +1,7 @@
+import io = require("socket.io-client");
+        this.socket = io.connect(serverURL, {
+            reconnection: true,
+            reconnectionDelay: 2000,
+            reconnectionDelayMax: 8000,
+            reconnectionAttempts: infinity
+        });
