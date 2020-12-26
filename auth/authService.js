@@ -1,12 +1,12 @@
 const users = [
   {
     username: "sureshdube",
-    password: "12345678",
+    password: "12345678", // Plain text password is not recommended.
     role: "admin",
   },
   {
     username: "anujkumar",
-    password: "12345678",
+    password: "12345678", // Plain text password is not recommended.
     role: "teammember",
   },
 ];
